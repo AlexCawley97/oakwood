@@ -1,0 +1,75 @@
+/*
+GLOBAL
+=======================================
+*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+	color: #222;
+	background-color: #faebd7;
+}
+.normal-centered-text {
+	text-align: center;
+	font-size: 1.75em;
+	color: #111;
+}
+.centered-button-div {
+	text-align: center;
+}
+.small-centered-text {
+	text-align: center;
+}
+
+/*
+LANDING-PAGE
+=======================================
+*/
+
+.welcome,
+.landing-question-p,
+.switch-p,
+.log-in-button {
+	margin: 5% auto;
+}
+.welcome-h1 {
+	font-weight: 300;
+	text-align: center;
+	font-size: 2.75em;
+}
+.welcome-span {
+	font-family: 'Dancing Script', cursive;
+	font-size: 1.5em;
+	margin: 5px;
+	color: #fd5236;
+}
+.landing-question-p {
+	margin-top: 0;
+}
+.sign-up-button,
+.log-in-button {
+	width: 300px;
+	height: 50px;
+	background-color: #faebd7;
+	border: 2px solid #fd5236;
+	border-radius: 5px;
+	color: #fd5236;
+	transition: .5s;
+	font-weight: 400;
+}
+.sign-up-button:focus,
+.log-in-button:focus {
+	outline: none;
+	cursor: pointer;
+}
+.sign-up-button:hover,
+.log-in-button:hover {
+	background-color: #fd5236;
+	color: #faebd7;
+	transition: .5s;
+	font-weight: 300;
+}
+.log-in-button {
+	margin-bottom: 0;
+}
