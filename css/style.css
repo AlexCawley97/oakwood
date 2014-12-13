@@ -9,6 +9,7 @@ body {
 	font-size: 1em;
 	color: #222;
 	background-color: #faebd7;
+	line-height: 1.5em;
 }
 .normal-centered-text {
 	text-align: center;
@@ -21,6 +22,9 @@ body {
 .small-centered-text {
 	text-align: center;
 }
+.button-top-margin {
+	margin-top: 5%;
+}
 
 /*
 LANDING-PAGE
@@ -30,8 +34,8 @@ LANDING-PAGE
 .welcome,
 .landing-question-p,
 .switch-p,
-.log-in-button {
-	margin: 5% auto;
+.login-button {
+	margin: 6.3% auto;
 }
 .welcome-h1 {
 	font-weight: 300;
@@ -48,7 +52,7 @@ LANDING-PAGE
 	margin-top: 0;
 }
 .sign-up-button,
-.log-in-button {
+.login-button {
 	width: 300px;
 	height: 50px;
 	background-color: #faebd7;
@@ -59,17 +63,75 @@ LANDING-PAGE
 	font-weight: 400;
 }
 .sign-up-button:focus,
-.log-in-button:focus {
+.login-button:focus {
 	outline: none;
 	cursor: pointer;
 }
 .sign-up-button:hover,
-.log-in-button:hover {
+.login-button:hover {
 	background-color: #fd5236;
 	color: #faebd7;
 	transition: .5s;
 	font-weight: 300;
 }
-.log-in-button {
+.login-button {
 	margin-bottom: 0;
+}
+.login {
+	margin-top: 7%;
+}
+.fan-signup {
+	margin-top: 2%;
+}
+.login-form,
+.login-info,
+.fan-signup-form,
+.fan-signup-info,
+.musician-signup-form,
+.musician-signup-info {
+	text-align: center;
+	border: 2px solid #e9dac6;
+	border-radius: 5px;
+	margin: auto;
+	padding: 5% 0;
+}
+.login-info,
+.fan-signup-info,
+.musician-signup-info {
+	padding: 2.33% 0;
+}
+.username,
+.password,
+.name,
+.email,
+.bandname {
+	background-color: #faebd7;
+	display: block;
+	margin: auto;
+	border: 2px solid #fd5236;
+	border-radius: 5px;
+	width: 80%;
+	height: 50px;
+	padding: 5px;
+}
+.username:focus,
+.password:focus,
+.name:focus,
+.email:focus,
+.bandname:focus {
+	outline: none;
+}
+.username,
+.name,
+.email,
+.password-fan,
+.password-musician,
+.bandname {
+	margin-bottom: 1%;
+}
+.login-info-p,
+.fan-signup-info-p,
+.musician-signup-info-p {
+	font-size: 1.2em;
+	padding: 2%;
 }
